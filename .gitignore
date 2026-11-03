@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# SQLite databases (local state)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Logs
+*.log
+*.pid
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Test artifacts
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# MoneyPrinterTurbo (separate repo)
+MoneyPrinterTurbo/
+
+# Runtime directories
+m5-*/
+__pycache__/
+
+# Media files (large, not for repo)
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.avi
+
+# OS
+Thumbs.db
